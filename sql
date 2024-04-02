@@ -1,3 +1,7 @@
-INSERT INTO alunos (cidade,estado,favorites)
-FROM alunos
-WHERE id="1";
+
+UPDATE
+  alunos
+SET
+  estado = 'teste'
+WHERE
+  id = 2;
